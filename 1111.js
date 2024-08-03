@@ -7,7 +7,7 @@ async function submitReflection() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer YOUR_OPENAI_API_KEY'
+            'Authorization': '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'
         },
         body: JSON.stringify({
             prompt: reflectionText + "\n\n###\n\nFollow-up question:",
